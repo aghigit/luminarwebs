@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+/* nav bar */
+.nav-link{
+    font-weight: 600;
+    padding-right: 10%;
+}
+
+
+
+/* carrousel */
+.d-block{
+    filter: brightness(50%);
+}
+.carousel-caption{
+}
+.carousel-caption1{
+    margin-bottom: 0%;
+}
+.carouselheadindDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 30%;
+    padding-bottom: 0%;
+}
+.carouselHeading{
+    display: flex;
+    font-size:65px;
+    font-weight: 700;
+    margin-top: -3%;
+}
+.carouselParagaph{
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 0%;
+}
+.carousel2Paragaph{
+    display: flex;
+}
+.carouselButton1{
+   display: flex;
+   color: white;
+   background-color: rgb(94, 8, 164);
+   font-size: 20px;
+   font-weight: 700;
+   padding: 2% 5% 2% 5%;
+   border-radius: 35px;
+   border: none;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+.carouselButton2{
+   display: flex;
+   color: white;
+   background-color: rgb(94, 8, 164);
+   font-size: 20px;
+   font-weight: 700;
+   padding: 2% 5% 2% 5%;
+   border-radius: 35px;
+   border: none;
+   margin-top: 0%;
+   margin-bottom: 0%;
+}
+.carousel-caption2{
+    
+}
+.carousel2Discription{
+    display: flex;
+    flex-direction: column;
+    margin-top: -47%;
+    padding-top: 0%;
+}
+.carousel2Heading{
+    display: flex;
+    font-size: 55px;
+    font-weight: 700;
+    padding: 0%;
+    margin-bottom: -2px;
+}
+@media(max-width:1281px){
+    .carouselHeading{
+        font-size: 250%;
+    }
+}
+
+@media(max-width:1200px){
+    .carousel-caption{
+        margin-bottom: 2%;
+    }
+    .carouselHeading {
+        display: flex;
+        font-size: 280%;
+        font-weight: 700;
+        margin-top: -4%;
+        margin-bottom: 1%;
+    }
+    .carouselButton1 {
+        display: flex;
+        color: white;
+        background-color: rgb(94, 8, 164);
+        font-size: 109%;
+        font-weight: 700;
+        padding: 2% 5% 2% 5%;
+        border-radius: 35px;
+        border: none;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .carouselParagaph {
+        display: flex;
+        font-size: 100%;
+        margin-bottom: -1%;
+    }
+}
+@media(max-width:913px){
+    .carouselHeading {
+        font-size: 220%;
+    }
+}
+@media(max-width:865px){
+    .carousel-caption {
+        margin-bottom: -2%;
+    }
+    .carouselParagaph {
+        display: flex;
+        font-size: 80%;
+        margin-bottom: -1%;
+    }
+    .carouselHeading {
+        display: flex;
+        font-size: 220%;
+        font-weight: 700;
+        margin-top: -4%;
+        margin-bottom: 1%;
+    }
+}
+@media(max-width:760px){
+    .carouselHeading{
+        font-size: 210%;
+    }
+}
+@media(max-width:726px){
+    .carouselHeading{
+        font-size: 195%;
+    }
+}
+@media(max-width:690px){
+    .carousel-caption {
+        margin-bottom: -1%;
+    }
+    .carouselButton1 {
+        display: flex;
+        color: white;
+        background-color: rgb(94, 8, 164);
+        font-size: 85%;
+        font-weight: 700;
+        padding: 2% 5% 2% 5%;
+        border-radius: 35px;
+        border: none;
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+    .carouselParagaph {
+        display: flex;
+        font-size: 75%;
+        margin-bottom: 0%;
+    }
+    .carouselHeading {
+        display: flex;
+        font-size: 180%;
+        font-weight: 700;
+        margin-top: -4%;
+        margin-bottom: 1%;
+    }
+}
+@media(max-width:690px){
+    .carouselParagaph{
+        font-size: 60%;
+    }
+}
+@media(max-width:600px){
+    .carouselHeading{
+        font-size: 165;
+    }
+}
+@media(max-width:590px){
+    .carousel-caption {
+        margin-bottom: -4%;
+    }
+    .carouselParagaph {
+        display: flex;
+        font-size: 65%;
+        margin-bottom: 0%;
+    }
+    .carouselHeading {
+        display: flex;
+        font-size: 165%;
+        font-weight: 700;
+        margin-top: -4%;
+        margin-bottom: 1%;
+    }
+}
+@media(max-width:569px){
+    .carouselHeading{
+        font-size: 155%;
+    }
+    .carouselParagaph{
+        font-size: 64%;
+    }
+}
+@media(max-width:541px){
+    .carouselParagaph{
+        font-size: 40%;
+    }
+}
+@media(max-width:510px){
+    .carouselHeading {
+        display: flex;
+        font-size: 135%;
+        font-weight: 700;
+        margin-top: -3%;
+        margin-bottom: 0%;
+    }
+    .carouselParagaph {
+        display: flex;
+        font-size: 52%;
+        margin-bottom: 0%;
+    }
+    .carouselButton1{
+        font-size: 65%;
+        margin-top: 1%;
+    }
+}
+@media(max-width:425px){
+    .carouselButton1{
+        font-size: 60%;
+        margin-top: 1%;
+    }
+    .carouselHeading{
+        font-size: 100%;
+    }
+    .carouselParagaph{
+        font-size: 48%;
+    }
+}
+@media(max-width:413px){
+    
+}
+
+@media(max-width:387px){
+    .carouselParagaph {
+        font-size: 43%;
+    }
+}
+@media(max-width:450px){
+    .carouselParagaph {
+        font-size: 48%;
+    }
+}
+@media(max-width:419px){
+    .carouselParagaph {
+        font-size: 46%;
+    }
+}
+@media(max-width:401px){
+    .carouselParagaph {
+        font-size: 44%;
+    }
+}
+@media(max-width:386px){
+    .carouselParagaph {
+        font-size: 45%;
+    }
+}
+@media(max-width:376px){
+    .carouselParagaph {
+        font-size: 42%;
+    }
+}
+@media(max-width:361px){
+    .carouselParagaph {
+        font-size: 40%;
+    }
+}
+
+
+
+/* carousel -2  media*/
+@media(max-width:1045px){
+    .carousel2Heading {
+        display: flex;
+        font-size: 33px;
+        font-weight: 700;
+        padding: 0%;
+        margin-bottom: -10px;
+    }
+    .carousel2Paragaph {
+        display: flex;
+        margin-bottom: 0%;
+    }
+    .carousel-caption2{
+        margin-bottom:-5%;
+        margin-top: 2%;
+    }
+    .carouselButton2 {
+        font-size: 16px;
+        margin-top: 1%;
+        margin-bottom: 0%;
+    }
+}
+@media(max-width:868px){
+    .carousel-caption2 {
+        margin-bottom: -1%;
+        margin-top: 2%;
+    }
+}
+@media(max-width:835px){
+    .carousel2Paragaph{
+        font-size: 70%;
+    }
+}
+@media(max-width:700px){
+    .carousel-caption2{
+        margin-bottom: -4%;
+    }
+    .carouselButton2 {
+        font-size: 10px;
+        margin-top: 1%;
+        margin-bottom: 4%;
+    }
+    .carousel2Heading{
+        font-size: 130%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .carousel2Paragaph{
+        font-size: 50%;
+        margin-bottom:-1%;
+        margin-top: 1%;
+    }
+}
+@media(max-width:405px){
+    .carousel-caption2 {
+        margin-bottom: -6%;
+    }
+    .carousel2Heading {
+        font-size: 95%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .carousel2Paragaph {
+        font-size: 39%;
+        margin-bottom: -1%;
+        margin-top: 1%;
+    }
+}
+@media(max-width:433px){
+    .carousel2Paragaph {
+        font-size: 45%;
+        margin-bottom: -1%;
+        margin-top: 1%;
+    }
+    .carousel2Heading {
+        padding-bottom: 2%;
+    }
+}
+@media(max-width:395px){
+    .carousel2Paragaph{
+        font-size: 42%;
+    }
+}
+@media(max-width:387px){
+    .carousel2Paragaph {
+        font-size: 40%;
+        margin-bottom: -1%;
+        margin-top: 1%;
+    }
+    .carousel2Heading {
+        padding-bottom: 2%;
+    }
+}
+@media(max-width:346px){
+    .carousel2Paragaph{
+        font-size: 37%;
+    }
+    .carousel2Heading {
+        font-size: 90%;
+    }
+}
+
+
+
+/*     modal   */
+.btnModal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   color: white;
+   background-color: rgb(94, 8, 164);
+   font-size: 150%;
+   font-weight: 700;
+   padding: 1% 2% 1% 2%;
+   border: none;
+   margin-left: 5%;
+   margin-top: 3%;
+   margin-bottom: 1%;
+   width: 20%;
+   height: 3%;
+}
+@media(max-width:807px){
+    .btnModal{
+        font-size: 95%;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+}
+@media(max-width:513px){
+    .btnModal{
+        font-size: 80%;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+}
+@media(max-width:432px){
+    .btnModal{
+        font-size: 60%;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+}
+@media(max-width:346px){
+    .btnModal{
+        font-size: 80%;
+        width:35%;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+}
+
+.modal-content{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.btnHclose{
+    margin-top: 5%;
+    margin-left: 90%;
+}
+.inputMain{
+    outline: none;
+    border: none;
+}
+.courseFlex{
+    display: flex;
+}
+.courseOption{
+    outline: none;
+    border: none;
+}
+.commentBox{
+    outline: none;
+    border: none;
+}
+.modal-footer{
+    display: flex;
+    float: left;
+}
+.btnSubmit{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border: none;
+    height: 50px;
+    width: 200px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+
+
+/* thumbs up */
+.mainLanding{
+    margin-top: 5%;
+    display: flex;
+    
+}
+.mainivHeading{
+    font-size: 180%;
+    font-weight: 700;
+    color: rgb(87, 14, 155);
+}
+.mainlandingSlno{
+    font-size: 100%;
+    margin-bottom: 2%;
+    font-weight: 300;
+    color: rgb(113, 48, 173);
+}
+.mainlandingParagraph{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 580;
+    font-size: 80%;
+    line-height: 155%;
+}
+.mainlandingImage{
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+}
+.mainlandingButton{
+    outline: none;
+    border: none;
+    font-family: 'Mulish', sans-serif;
+    background-color: rgb(101, 27, 169);
+    color: white;
+    font-size: 150%;
+    font-weight: 700;
+    padding: 1% 2% 1% 2%;
+    border-radius: 35px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 50%;
+    height: 10%;
+}
+@media(max-width:1000px){
+    .mainlandingButton{
+        font-size: 105%;
+        height: 15%;
+        width: 40%;
+        margin-bottom: 10%;
+    }
+}
+@media(max-width:506px){
+    .mainlandingButton{
+        font-size: 70%;
+        height: 6%;
+        width: 51%;
+        margin-bottom: 18%;
+    }
+}
+
+
+
+
+/* course main div */
+
+.courseMaindiv{
+    width: 100%;
+    margin-top: 0.3%;
+    margin-bottom: 3%;
+    /* background-color: rgb(219, 226, 250); */
+    /* font-family: 'Mulish', sans-serif; */
+}
+.coursemaindivHeadig{
+    font-weight: 600;
+    padding-top: 7%;
+    font-size: 180%;
+    text-align: center;
+}
+.coursefirstWrapper{
+    margin-bottom: 4%;
+    transition: transform .5s;
+}
+.coursefirstWrapper:hover{
+    box-shadow: 0px 0px 5px 0px rgb(172, 171, 171);
+    transform: scale(103%);
+}
+.coursefirstdivImg{
+    width: 100%;
+}
+.coursefirstSubdiv2{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.coursefirstdivfirstHeading{
+    font-size: 110%;
+    font-weight: 500;
+}
+.coursefirstdivParagraph{
+    font-size: 85%;
+    margin-top: -2%;
+}
+.batchWrap{
+    display: flex;
+    flex-direction: column;
+    line-height: 180%;
+}
+.next{
+    font-size: 80%;
+    font-weight: 600;
+}
+
+
+/* small course div */
+
+.pythonHeading{
+    font-size: 100%;
+    font-weight: 500;
+}
+.pythonParagraph{
+    font-size: 85%;
+    font-weight: 600;
+}
+.pythonButton{
+    border: none;
+    outline: none;
+    background-color: rgb(77, 15, 136);
+    color: white;
+    font-size: 80%;
+    padding: 3%;
+}
+.pythonCard{
+    margin-bottom: 5%;
+    transition: transform 0.5s;
+}
+.pythonCard:hover{
+box-shadow: 0px 0px 5px 0px rgb(172, 171, 171);
+    transform: scale(103%);
+}
+
+
+.testingHeading{
+    font-size: 100%;
+    font-weight: 500;
+}
+.testingParagraph{
+    font-size: 85%;
+    font-weight: 600;
+}
+.testingButton{
+    border: none;
+    outline: none;
+    background-color: rgb(77, 15, 136);
+    color: white;
+    font-size: 80%;
+    padding: 3%;
+}
+.testingCard{
+    margin-bottom: 5%;
+    transition: transform 0.5s;
+}
+.testingCard:hover{
+    box-shadow: 0px 0px 5px 0px rgb(172, 171, 171);
+    transform: scale(103%);
+}
+
+.mernHeading{
+    font-size: 100%;
+    font-weight: 500;
+}
+.mernPara{
+    font-size: 85%;
+    font-weight: 600;
+}
+.mernButton{
+    border: none;
+    outline: none;
+    background-color: rgb(77, 15, 136);
+    color: white;
+    font-size: 80%;
+    padding: 3%;
+}
+.mernCard{
+    margin-bottom: 3%;
+    transition: transform 0.5s;
+}
+.mernCard:hover{
+    box-shadow: 0px 0px 5px 0px rgb(172, 171, 171);
+    transform: scale(103%);
+}
+.vieallcoursesWrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+
+}
+.viewallCourses{
+    outline: none;
+    border: none;
+    background-color: rgb(63, 12, 110);
+    color: white;
+    padding: 1.5%;
+    border-radius: 35px;
+    font-size: 90%;
+}
+.viewallCourses:hover{
+    background-color: white;
+    color: rgb(63, 12, 110);
+    border: 2px solid rgb(63, 12, 110);
+}
