@@ -87,7 +87,14 @@
    margin-bottom: 0%;
 }
 .carousel-caption2{
-    
+    animation: slide 1.5s ease;
+}
+@keyframes slide{
+    0%,
+    50%{
+        margin-bottom: -35%
+        transform: translateY(50%)
+    }
 }
 .carousel2Discription{
     display: flex;
