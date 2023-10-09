@@ -28,7 +28,7 @@
 .d-block{
     filter: brightness(50%);
 }
-.carousel-caption{
+.carousel-caption1{
      animation: slideup 1.5s ease;
 }
 @keyframes slideup{
@@ -92,8 +92,8 @@
 @keyframes slide{
     0%,
     50%{
-        margin-bottom: -35%
-        transform: translateY(50%)
+        margin-bottom: -35%;
+        transform: translateY(50%);
     }
 }
 .carousel2Discription{
