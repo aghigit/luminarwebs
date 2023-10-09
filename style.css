@@ -92,7 +92,7 @@
 @keyframes slide{
     0%,
     50%{
-        margin-bottom: -35%;
+        margin-bottom: -38%;
         transform: translateY(50%);
     }
 }
