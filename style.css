@@ -29,6 +29,14 @@
     filter: brightness(50%);
 }
 .carousel-caption{
+     animation: slideup 1.5s ease;
+}
+@keyframes slideup{
+    0%,
+    50%{
+        margin-bottom: -20%;
+        transform: translateY(50%)
+    }
 }
 .carousel-caption1{
     margin-bottom: 0%;
