@@ -10,9 +10,24 @@
     flex-wrap: wrap;
     color:white;
 }
-.top>p{
-    margin:1%;
+.top>div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
 }
+.top>p{
+    margin-top: 15px;
+}
+.phonePara{
+    margin-left: ;
+    margin-right: 15px;
+}
+.mailPara{
+    margin-right: 15px;
+}
+
+
 
 
 
