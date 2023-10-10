@@ -16,6 +16,9 @@
     align-items: center;
     justify-content: flex-start;
 }
+.haveQuestionpara{
+    margin-left: 10px;
+}
 .top>p{
     margin-top: 15px;
 }
